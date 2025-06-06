@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="510CCAA1-107E-4FB9-2F16-9530DA9F4B47" containerWithKeyObject="7C0BDA17-554C-B039-FC51-F4E4C54713B1" localFKIndex="1502F5A0-7C94-44A9-B755-432417AC7D61" name="Ronda_Foco_Queimada_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>2A15DF93-1E35-6E32-B7A5-0124578619DB</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<referredTableLongName>Foco_Queimada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A55C2D02-8B2B-2183-EF47-22BEF31945B4</referredTableID>
+<keyObject>3C6B033C-7670-0F8D-79B0-6A07D47E4288</keyObject>
+<referredKeyID>3C6B033C-7670-0F8D-79B0-6A07D47E4288</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_foco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

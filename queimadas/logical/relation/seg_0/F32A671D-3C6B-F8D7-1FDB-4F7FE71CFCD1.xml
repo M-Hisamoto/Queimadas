@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Notificação" directorySegmentName="seg_0" id="F32A671D-3C6B-F8D7-1FDB-4F7FE71CFCD1">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:17:22 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<sourcePk>F7800CD7-A332-6CDA-6DA0-32F2599386D5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506B91DB-7177-A83D-97C3-68B4305C4B98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3A8B464-86D4-9085-6E17-F48647A4CE05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

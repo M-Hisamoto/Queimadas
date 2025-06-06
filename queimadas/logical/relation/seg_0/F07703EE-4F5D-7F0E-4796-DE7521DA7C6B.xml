@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="F07703EE-4F5D-7F0E-4796-DE7521DA7C6B">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:03:40 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<sourcePk>F7800CD7-A332-6CDA-6DA0-32F2599386D5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506B91DB-7177-A83D-97C3-68B4305C4B98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59422B1F-C0E0-B89D-6ED0-0A30D4B228A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

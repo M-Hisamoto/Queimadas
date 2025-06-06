@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E089288A-8FB0-7826-7D57-D3E0C8AADE5E" name="Ronda">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:31:33 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ronda" id="18942B1E-3A81-7727-34AD-993DAD59904B">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:31:41 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="FEC0DFF5-0F6E-DEB0-1C80-7682F3F8F869">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:32:01 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="B8737601-20DA-CF22-21C9-F42E09429C1A">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:32:30 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rota" id="6DE6908B-804A-0800-C17D-A90B1C48E820">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:34:49 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_fim" id="16FC42B4-F309-7818-B0CD-CA52A88FF353">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:35:04 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_drone" id="731E365D-5512-982C-53DB-B0C25326BC5B">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:06:16 UTC</createdTime>
+<generatorID>DDC46B7A-D6D9-726C-3182-A2CCCE2E549B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<referedAttribute>5CE22152-CEEC-718D-579F-8D38BF1BB6F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_foco" id="ABB2787C-5EFC-806A-A2D1-E6534E5AF7D4">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:07:48 UTC</createdTime>
+<generatorID>2A15DF93-1E35-6E32-B7A5-0124578619DB</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<referedAttribute>A72999BB-9572-4A75-AE46-39DCBCEEABE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91F2A0B7-B653-ECE3-5081-D63BEAEDA287" name="Ronda PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:31:52 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18942B1E-3A81-7727-34AD-993DAD59904B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

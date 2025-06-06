@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B26BD0B0-E70F-1718-332D-B4A64EE6E86F" containerWithKeyObject="7C0BDA17-554C-B039-FC51-F4E4C54713B1" localFKIndex="A4CBFE8D-3470-E58D-17DC-C1B89B20FF46" name="Ronda_Drone_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>DDC46B7A-D6D9-726C-3182-A2CCCE2E549B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<referredTableLongName>Drone</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB32913C-66DC-EB2A-DCFF-2BCAA026B666</referredTableID>
+<keyObject>672B5FE9-155A-DE28-0A2E-84BD6F00D175</keyObject>
+<referredKeyID>672B5FE9-155A-DE28-0A2E-84BD6F00D175</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_drone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

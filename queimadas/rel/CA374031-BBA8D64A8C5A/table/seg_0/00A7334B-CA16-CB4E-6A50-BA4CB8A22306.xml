@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00A7334B-CA16-CB4E-6A50-BA4CB8A22306" name="Autoridade_Notificada">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>A3A8B464-86D4-9085-6E17-F48647A4CE05</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autoridade" id="FE785A8C-E0C6-CD0B-9774-C2E2987CAD66">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>B6F8A729-1C80-1699-E786-B2DD00EF463E</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3713D35A-D393-CA4B-97DF-8DC797DAC389">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>E6029AD4-C910-8C66-DD8E-A0706A75818C</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="0A024D94-C0F6-BEFE-24A4-A7CB3FB775D1">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>DED79125-804C-7581-8EF2-B05B4013EB26</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_notificacao" id="E70F8396-0EFD-267D-E1EE-3FCE99FD28C3">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>DA609791-ADBD-DDDC-4C58-644C0FE41F40</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drone_id_drone" id="05ABF2F5-B3E5-D991-08D2-CB69FED91760">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>94A4B5B2-C130-B174-A8DD-1B9B55D417B2</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F6827DB-7117-5109-09BF-4EF5EC1813CB" referredColumn="C57AD6BA-E98F-90BE-6049-43352BFF34DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95379E4E-6E57-FA44-A1EE-0C9906B7A804" name="Autoridade_Notificada_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>AEA31580-EB4F-DB88-675A-2D8BA5540926</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE785A8C-E0C6-CD0B-9774-C2E2987CAD66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F675D53-4D44-2674-5ECF-9A02D3C2E202" name="Autoridade_Notificada_Drone_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>F32A671D-3C6B-F8D7-1FDB-4F7FE71CFCD1</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05ABF2F5-B3E5-D991-08D2-CB69FED91760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

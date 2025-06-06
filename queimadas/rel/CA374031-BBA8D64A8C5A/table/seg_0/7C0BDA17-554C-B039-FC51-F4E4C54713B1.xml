@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C0BDA17-554C-B039-FC51-F4E4C54713B1" name="Ronda">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>E089288A-8FB0-7826-7D57-D3E0C8AADE5E</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ronda" id="488275D6-9A5E-7FE0-ADE4-03A355C1BA03">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>18942B1E-3A81-7727-34AD-993DAD59904B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="335E5ECF-2657-2B48-1C28-0CFB3A6C93D8">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>FEC0DFF5-0F6E-DEB0-1C80-7682F3F8F869</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="A15D9149-6C14-A9E1-BEB9-2D67DB403D7A">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>B8737601-20DA-CF22-21C9-F42E09429C1A</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rota" id="58A3F6BC-A828-4552-1DF7-E4D3A1A0F993">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>6DE6908B-804A-0800-C17D-A90B1C48E820</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="96C3443B-ED16-317E-73C4-AD4D9BDA18E1">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>16FC42B4-F309-7818-B0CD-CA52A88FF353</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drone_id_drone" id="5560660E-D075-6A7C-5D6E-9876AE97CF4E">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>731E365D-5512-982C-53DB-B0C25326BC5B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B26BD0B0-E70F-1718-332D-B4A64EE6E86F" referredColumn="C57AD6BA-E98F-90BE-6049-43352BFF34DB"/>
+</associations>
+</Column>
+<Column name="Foco_Queimada_id_foco" id="9F91CBBA-2C14-6EEB-7142-81F336283095">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>ABB2787C-5EFC-806A-A2D1-E6534E5AF7D4</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="510CCAA1-107E-4FB9-2F16-9530DA9F4B47" referredColumn="6F4E2404-ABA5-ADD0-3665-BCA6B151E7F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F657179-B0B1-1FF8-B1E5-1C356CB45E2C" name="Ronda_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>91F2A0B7-B653-ECE3-5081-D63BEAEDA287</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488275D6-9A5E-7FE0-ADE4-03A355C1BA03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1502F5A0-7C94-44A9-B755-432417AC7D61" name="Ronda_Foco_Queimada_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>2A15DF93-1E35-6E32-B7A5-0124578619DB</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F91CBBA-2C14-6EEB-7142-81F336283095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4CBFE8D-3470-E58D-17DC-C1B89B20FF46" name="Ronda_Drone_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>DDC46B7A-D6D9-726C-3182-A2CCCE2E549B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5560660E-D075-6A7C-5D6E-9876AE97CF4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

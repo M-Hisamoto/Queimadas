@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3A8B464-86D4-9085-6E17-F48647A4CE05" name="Autoridade_Notificada">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:50:07 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_autoridade" id="B6F8A729-1C80-1699-E786-B2DD00EF463E">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:51:23 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E6029AD4-C910-8C66-DD8E-A0706A75818C">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:59:51 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="DED79125-804C-7581-8EF2-B05B4013EB26">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:00:14 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_notificacao" id="DA609791-ADBD-DDDC-4C58-644C0FE41F40">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:01:01 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_drone" id="94A4B5B2-C130-B174-A8DD-1B9B55D417B2">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:17:22 UTC</createdTime>
+<generatorID>F32A671D-3C6B-F8D7-1FDB-4F7FE71CFCD1</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<referedAttribute>5CE22152-CEEC-718D-579F-8D38BF1BB6F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEA31580-EB4F-DB88-675A-2D8BA5540926" name="Autoridade_Notificada PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:59:49 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6F8A729-1C80-1699-E786-B2DD00EF463E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

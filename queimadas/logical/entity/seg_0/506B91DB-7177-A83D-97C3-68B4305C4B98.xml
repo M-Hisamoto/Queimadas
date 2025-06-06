@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506B91DB-7177-A83D-97C3-68B4305C4B98" name="Drone">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:27:21 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_drone" id="5CE22152-CEEC-718D-579F-8D38BF1BB6F9">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:27:32 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="6FF965F3-4962-64D5-6C75-EB1E78138AD1">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:27:56 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autonomia_voo" id="BFC198DC-C7B2-C885-D673-CCD7B419AE66">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:28:42 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="B3D3D3B7-034B-B0BF-4CC4-6FBC11E46BF0">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:30:17 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7800CD7-A332-6CDA-6DA0-32F2599386D5" name="Drone PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 20:27:43 UTC</createdTime>
+<ownerDesignName>queimadas</ownerDesignName>
+<engineerTo>
+<item key="CA374031-BD29-1699-AF54-BBA8D64A8C5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CE22152-CEEC-718D-579F-8D38BF1BB6F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

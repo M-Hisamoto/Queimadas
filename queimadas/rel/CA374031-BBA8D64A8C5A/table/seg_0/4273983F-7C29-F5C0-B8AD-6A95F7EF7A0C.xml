@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4273983F-7C29-F5C0-B8AD-6A95F7EF7A0C" name="Estacao_Drone">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>59422B1F-C0E0-B89D-6ED0-0A30D4B228A0</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estacao" id="58CEB0AB-0AB5-FE4E-DC01-CD6B2081820F">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>43DF6862-7FE4-E04B-A4E6-6044131CD6F6</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="2E424247-D507-EF47-208A-226494291B34">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>E59430ED-6DF9-D6F4-A119-E1A59EEBA4F3</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="3C427B69-1784-B2B6-DD0B-B4A7B4C41A8D">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>A8BCB9A2-E605-B765-FB62-20974027D4D7</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="D6BD1A30-2E4C-E437-2543-0892B5523912">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>4BF6CAE2-506B-9D40-E3F3-60F5F5EC3C92</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_drones" id="72F94082-DEC1-35C3-7CFC-D36ABE24EDC6">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>9573371F-51DF-054D-61A7-F3013DC285F6</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="responsavel" id="7A72FB99-E35A-2E72-88F2-EB1796FAAF08">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>6A64C4B6-1A8A-CA03-3151-A7C1F225C40B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drone_id_drone" id="57D5D3C5-F707-DE49-9C02-399201CE06FA">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>08160A95-9CC2-528E-DBCD-AFDBC15E9E9D</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D53805A8-2BA9-CF05-0A49-CEF3A9EC42CC" referredColumn="C57AD6BA-E98F-90BE-6049-43352BFF34DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F70BBC4F-B986-2E66-703A-3982727FC3FF" name="Estacao_Drone_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>D3B8F959-DC01-771F-52DB-7811D77E3E3B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58CEB0AB-0AB5-FE4E-DC01-CD6B2081820F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79655E1D-C411-228B-19AF-B33840EC6ECB" name="Estacao_Drone_Drone_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>F07703EE-4F5D-7F0E-4796-DE7521DA7C6B</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D5D3C5-F707-DE49-9C02-399201CE06FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A55C2D02-8B2B-2183-EF47-22BEF31945B4" name="Foco_Queimada">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>705A2511-273F-91C6-0236-69EA896BF544</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_foco" id="6F4E2404-ABA5-ADD0-3665-BCA6B151E7F7">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>A72999BB-9572-4A75-AE46-39DCBCEEABE5</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="377D8915-8A48-85CE-BE42-83CDE810E16D">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>87A560EB-725B-50A7-C260-3B0621236B08</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="E994141D-9DBD-1348-B936-951EB8E22BFA">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>0FE7212B-696E-66A6-600E-4180A20BBBB2</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="intensidade_calor" id="66C2A565-EBCF-CCC6-1B3E-C874C0B675A8">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>FF7995FB-7B14-4A56-4B91-92B5B8A00262</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_detectada" id="0C86E7AD-AE50-85B4-7057-53E9BACDAF74">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>568DAF8C-9725-C9E4-ECBA-13D0E999C949</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem" id="92EB6402-25CD-9E73-6864-2F86884DD2E7">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>C358140A-81B6-2808-2D89-55C19CBD0859</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C6B033C-7670-0F8D-79B0-6A07D47E4288" name="Foco_Queimada_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2025-06-06 21:43:12 UTC</createdTime>
+<generatorID>8A2707B9-F039-7576-DCB4-03E1E6BD9453</generatorID>
+<ownerDesignName>queimadas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F4E2404-ABA5-ADD0-3665-BCA6B151E7F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
